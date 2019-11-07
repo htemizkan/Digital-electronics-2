@@ -121,7 +121,7 @@ ISR(ADC_vect)
         uart_puts(" Left \n \r");
     else if(value < 650)
         uart_puts(" Select \n \r");
-    else if(value < 1050)
+    else if(value < 1024)
     uart_puts(" NOTHING \n \r");
    
     
