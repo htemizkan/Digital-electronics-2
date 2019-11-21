@@ -53,7 +53,7 @@ int main(void)
     /* Timer1
      * TODO: Configure Timer1 clock source and enable overflow 
      *       interrupt */
-    TIM_config_prescaler(TIM1, TIM_PRESC_256);
+    TIM_config_prescaler(TIM1, TIM_PRESC_8);
     TIM_config_interrupt(TIM1, TIM_OVERFLOW_ENABLE);   
 
     // Enables interrupts by setting the global interrupt mask
